@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header > ul, .search-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #282c34;
+
+}
+
+.App-header > ul > .search-bar {
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 10px 15%;
+      color: white;
+      text-decoration: none;
+      font-family: garamond;
+  }
+
+.App-header > ul > li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 12px 8.7%;
+    color: white;
+    text-decoration: none;
+    font-family: garamond;
+}
+
+.App-header > ul > .wishlist {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 12px 0.01%;
+    color: white;
+    text-decoration: none;
+    font-family: garamond;
+}
+
+.App-header > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-family: garamond;
+}
+
+.App-header > ul > .users:hover{
+      background-color: lightgray;
+  }
+
+.App-link {
+  color: #61dafb;
+  background-color: #282c34;
+}
+
+.book-list {
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.book {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #282c34;
+    margin: 0 0 20px 0;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    width: 700px;
+    background-color: lightgray;
+}
+
+.user-forms {
+    display: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #282c34;
+    background-color: lightgray;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.wishlist-buttons {
+    background-color: forestgreen;
+    border-style: solid;
+    border-width: 8px;
+    border-color: forestgreen;
+    color: white;
+}
+
+.wishlist-buttons:hover {
+    background-color: #006400;
+    border-color: #006400;
+}
