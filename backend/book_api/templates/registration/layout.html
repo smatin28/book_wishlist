@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+        {% block static %}{% endblock %}
+    </head>
+    <body>
+        <div class="site-container">
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+</html>
